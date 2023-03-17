@@ -5,6 +5,4 @@ ports:
   - name: Jenkins Instance
     description: This is a Jenkins instance which is created for learning and exploration purposes
     port: 8080
-    onOpen: 
-     - open-browser
-     - open-preview
+    onOpen: open-preview
