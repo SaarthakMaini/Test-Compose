@@ -1,0 +1,8 @@
+image:
+  file: .gitpod.Dockerfile
+tasks:
+  - init: docker-compose up -d
+    openMode: "split-right"
+    command: |
+      sleep 5s
+      open http://localhost:8080
