@@ -1,6 +1,0 @@
-tasks:
-  - init: docker-compose up -d
-    openMode: "split-right"
-    command: |
-      sleep 5s
-      xdg-open $(gp url 8080)
