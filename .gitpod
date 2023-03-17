@@ -3,4 +3,4 @@ tasks:
     openMode: "split-right"
     command: |
       sleep 5s
-      open http://localhost:8080
+      xdg-open $(gp url 8080)
